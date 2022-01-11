@@ -207,9 +207,8 @@ margin-bottom: 5px;
 display: flex;
 justify-content: space-around;
 margin-top: 20px;
-/* background: blue; */
-
 }
+
 .restau-card{
 height: 260px;
 width: 300px;
@@ -217,7 +216,7 @@ border-radius: 20px;
 /* border: 1px solid black; */
 /* background: green; */
 box-shadow:0 0 20px blue;
-
+position:relative;
 }
 
 .restau-card img 
@@ -245,8 +244,51 @@ object-fit: cover;
     justify-content: space-around;
     /* background: green; */
     width: 50%;
-    
+    }
+
+  .new
+  {
+    position: absolute;
+    left: auto;
+     top: 12px;
+     right: 11px;
+     height: 19px;
+     width: 70px;
+     background: lightgray;
+     border-radius: 2px;
+     color: grey;
+     text-align: center;
+  }  
+  .far.fa-heart , .fas.fa-heart
+  {
+position: absolute;
+top: 200px;
+right: 18px;
+font-size: 28px;
+transition: 2s;
 }
+.fas.fa-heart
+{
+color: #9356DC;
+z-index: 1;
+opacity: 0;
+transition: 2s;
+transform-origin: left;
+}
+
+.far.fa-heart
+{
+    z-index:-1;
+}
+
+.fas.fa-heart:hover
+{
+    opacity: 1;
+}
+
+
+
+
 @media (max-width: 1200px)
 {
 .card{   
@@ -346,10 +388,28 @@ flex-direction: column;
 .restau-card{
 
     width: 100%;
+    position: relative;
+    
 }
+.new
+{
+    position: absolute;
+   left: auto;
+    top: 12px;
+    right: 11px;
+    height: 19px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 2px;
+    color: grey;
+    text-align: center;
+}
+
 
 .restau-card img
 {
     width: 100%;
 }
+
+
 }
