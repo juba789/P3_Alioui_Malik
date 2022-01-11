@@ -286,8 +286,54 @@ transform-origin: left;
     opacity: 1;
 }
 
+footer{
+background: rgba(23, 23, 23, 0.8);
+display:flex;
+justify-content: center;
+align-items: center;
+height: 220px;
+margin-top: 35px;
+}
+ 
+.liens
+{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+height: 200px;
 
+}
+footer h1
+{
+font-weight: bold;
+    font-family: shrikhand;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
 
+footer div
+{
+
+    display: flex;
+}
+
+footer p
+{
+    font-weight: bold;
+    color: white;
+}
+
+.fas.fa-utensils
+{
+    margin-right: 16px;
+    color: white;
+}
+.fas.fa-hands-helping
+{
+    color: white;
+    margin-right: 10px;
+}
 
 @media (max-width: 1200px)
 {
@@ -411,5 +457,14 @@ flex-direction: column;
     width: 100%;
 }
 
+footer
+{
+    margin-top: 20px;
+justify-content: flex-start;
 
+}
+.liens
+{
+  margin-left: 15px;  
+}
 }
