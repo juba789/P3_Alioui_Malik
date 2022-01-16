@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+padding: 0;
+margin: 0;
+font-family: Roboto,Shrikhand, sans-serif; 
+}
+header
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 15px;
+
+}
+header img
+{
+ height: 32px;
+ margin-top: 15px;
+}
+
+.fas.fa-arrow-left
+{
+position: absolute;
+top: 22px;
+left: 10px;
+font-size: 23px;
+
+}
+.fond-resto
+{
+height: 470px;
+
+}
+
+
+.fond-resto img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+  .title
+  {
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-wrap: nowrap;
+    position: relative;
+    background: white;
+    margin-top: -60px;
+    border-radius: 40px 40px 0 0;
+    background: lightgray;
+  }
+  .bloc-title
+  {
+
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  }
+h1
+
+{
+text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 10px;
+    font-family: shrikhand,sans-serif;
+}
+.icon
+
+{
+
+white-space: nowrap;
+    margin-left: 10px;
+
+}
+.far.fa-heart
+{
+
+    font-size: 30px;
+    margin-right: -33px;
+    z-index: -1;
+}
+
+.fas.fa-heart
+{
+
+
+    font-size: 30px;
+    color: blue;
+    z-index: 1;
+    opacity: 0;
+    transition: 500ms;
+}
+.fas.fa-heart:hover
+{
+
+    opacity: 1;
+}

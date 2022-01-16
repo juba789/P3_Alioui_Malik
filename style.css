@@ -16,7 +16,6 @@ font-family: Roboto,Shrikhand, sans-serif;
 {
     display: flex;
     justify-content: center;
-    /* background:white ; */
     height: 30px; 
     margin-top: 20px;
 }
@@ -334,6 +333,8 @@ footer p
     color: white;
     margin-right: 10px;
 }
+/* page1.html */
+
 
 @media (max-width: 1200px)
 {
