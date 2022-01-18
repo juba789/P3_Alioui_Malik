@@ -330,6 +330,12 @@ footer p
     color: white;
     margin-right: 10px;
 }
+
+footer a
+{
+text-decoration: none;
+
+}
 /* page1.html */
 
 
