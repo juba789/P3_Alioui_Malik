@@ -343,6 +343,12 @@ footer p
     color: white;
     margin-right: 10px;
 }
+
+footer a
+{
+text-decoration: none;
+
+}
 /* ANIMATION APPARITION SUCCESSIVE */
 .app-1 ,.app-2 , .app-3 
 {
