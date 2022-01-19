@@ -21,6 +21,12 @@ header img
  height: 32px;
  margin-top: 15px;
 }
+header a
+{
+
+text-decoration: none;
+color: black;
+}
 
 .fas.fa-arrow-left
 {
