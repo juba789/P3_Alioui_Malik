@@ -60,7 +60,7 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 border: transparent;
-border-right: 10px solid green;
+border-top: 10px solid #9356DC;
 animation: load 3s linear forwards ;
 }
 
@@ -73,7 +73,7 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 border: transparent;
-border-bottom: 10px solid red;
+border-top: 10px solid #9356DC;
 animation: load 3s linear forwards infinite;
 }
 
@@ -88,6 +88,8 @@ animation: load 3s linear forwards infinite;
    
     }
 }
+
+
 
 .logo 
 {
