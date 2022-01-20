@@ -283,15 +283,11 @@ width: 280px;
 height: 70px;
 transition: 500ms;
 cursor: pointer;
-
-}
-
-.command p
-{
 font-size: 20px;
-color:white;
-
+color:white
 }
+
+
 
 button:hover
 {
