@@ -110,7 +110,7 @@ i.fas.fa-map-marker-alt
 display: flex;
 justify-content: center;
 align-items: center;
-background:#99E2D0 ;
+background:#e7e7e7 ;
 height: 70px;
 margin-top: 10px; 
 font-size: 24px;  
@@ -185,7 +185,9 @@ padding-bottom: 50px;
 button
 {
 border: transparent ;
-background: #9356DC;
+/* background: #9356DC; */
+background: #ff79da;
+background: linear-gradient(170deg, #ff79da 10%, #9356dc 100%);
 border-radius: 40px;
 margin-top: 50px;
 width: 280px;
@@ -196,7 +198,8 @@ cursor: pointer;
 }
 button:hover
 {
-filter: brightness(1.15);
+ filter: brightness(1.15);
+ /* background: linear-gradient(170deg, #ff79da 10%, #9356dc 100%) */
 box-shadow: 0 0 20px #9356DC;
 }
 
@@ -226,6 +229,33 @@ color: white;
     background: #f2f2f2;
     margin-top: 20px;
 }
+
+.choice:hover
+{
+   background: #f2ebff;
+   background: #F5EDFF;
+
+}
+
+.choice:hover .fas.fa-mobile-alt
+{
+
+    color: #9356DC ;
+}
+
+.choice:hover .fas.fa-list
+{
+    color: #9356DC;
+
+}
+
+.choice:hover .fas.fa-store
+{
+    color: #9356DC;
+
+}
+
+
 .fas.fa-mobile-alt
 {
     margin-right: 15px;
@@ -239,7 +269,7 @@ color: white;
 {
 
   margin-right: 15px;  
-  color: #9356DC;
+  
 }
 
 .number
