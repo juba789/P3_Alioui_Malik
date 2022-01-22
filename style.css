@@ -110,7 +110,7 @@ i.fas.fa-map-marker-alt
 display: flex;
 justify-content: center;
 align-items: center;
-background:#e7e7e7 ;
+background:#EAEAEA;
 height: 70px;
 margin-top: 10px; 
 font-size: 24px;  
@@ -119,7 +119,7 @@ font-weight: bold;
 
 .back
 {
-    background: #f2f2f2;
+    background: #f6f6f6;
   }
 
 .reclam
@@ -127,7 +127,7 @@ font-weight: bold;
     display: flex;
     justify-content: center;
     text-align: center;
-    background: #f2f2f2;
+    background: #f6f6f6;
     padding-top: 65px;
 }
 
@@ -155,7 +155,7 @@ align-items: center;
     margin-top: 10px;
     text-align: center;
     font-size: 24px;
-    background: #f2f2f2;
+    background: #f6f6f6;
 }
 .sous-titre1 
 {
@@ -186,8 +186,9 @@ button
 {
 border: transparent ;
 /* background: #9356DC; */
-background: #ff79da;
-background: linear-gradient(170deg, #ff79da 10%, #9356dc 100%);
+/* background: #ff79da; */
+/* background: linear-gradient(170deg, #ff79da 10%, #9356dc 100%);  */
+background: #CE69DB;
 border-radius: 40px;
 margin-top: 50px;
 width: 280px;
@@ -195,6 +196,7 @@ height: 70px;
 margin-top: 40px;
 transition: 500ms;
 cursor: pointer;
+box-shadow: 0 0 10px #9356DC;
 }
 button:hover
 {
@@ -226,7 +228,7 @@ color: white;
     border-radius: 20px;
     justify-content: flex-start;
     font-size: 20px;
-    background: #f2f2f2;
+    background: #f6f6f6;
     margin-top: 20px;
 }
 
@@ -241,6 +243,7 @@ color: white;
 {
 
     color: #9356DC ;
+    
 }
 
 .choice:hover .fas.fa-list
@@ -374,7 +377,6 @@ object-fit: cover;
 {
     display: flex;
     justify-content: space-around;
-    /* background: green; */
     width: 50%;
     }
 
@@ -386,9 +388,9 @@ object-fit: cover;
      right: 11px;
      height: 19px;
      width: 70px;
-     background: lightgray;
+     background: #99E2D0;
      border-radius: 2px;
-     color: grey;
+     color: #008766;
      text-align: center;
   }  
   .far.fa-heart , .fas.fa-heart
@@ -401,10 +403,10 @@ transition: 2s;
 }
 .fas.fa-heart
 {
-color: #9356DC;
+color: #D06ADB;
 z-index: 1;
 opacity: 0;
-transition: 2s;
+transition: 1s;
 transform-origin: left;
 }
 
@@ -552,13 +554,13 @@ flex-direction: column;
     border-radius: 20px;
     justify-content: flex-start;
     font-size: 15px;
-    background: #f2f2f2;
+    background: #f6f6f6;
     margin-top: 20px;
 }
 .total-card
 {
 
-    background: #f2f2f2;
+    background: #f6f6f6;
 }
 
 .card
@@ -603,9 +605,9 @@ flex-direction: column;
     right: 11px;
     height: 19px;
     width: 70px;
-    background: lightgray;
+    background: #99E2D0;
     border-radius: 2px;
-    color: grey;
+    color: #008766;
     text-align: center;
 }
 

@@ -264,7 +264,7 @@ background: #f6f6f6;
 {
 height: 3px;
 width: 50px;
-background: green;
+background: #99E2D0;
 
 }
 
@@ -361,7 +361,7 @@ text-decoration: none;
 
 }
 /* ANIMATION APPARITION SUCCESSIVE */
-.app-1 ,.app-2 , .app-3 
+.app-1 ,.app-2 , .app-3 ,.app-4
 {
     
     transform: translateY(0);
