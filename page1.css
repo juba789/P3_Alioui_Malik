@@ -61,10 +61,10 @@ height: 470px;
     text-overflow: ellipsis;
     flex-wrap: nowrap;
     position: relative;
-    background: white;
+    
     margin-top: -60px;
     border-radius: 40px 40px 0 0;
-    background: lightgray;
+   
     background: #f6f6f6;
   }
   .bloc-title
@@ -82,6 +82,7 @@ text-overflow: ellipsis;
     white-space: nowrap;
     margin-right: 10px;
     font-family: shrikhand,sans-serif;
+    letter-spacing: 1px;
 }
 .icon
 
@@ -95,7 +96,7 @@ white-space: nowrap;
 {
 
     font-size: 30px;
-    margin-right: -33px;
+    margin-right: -34px;
     z-index: -1;
 }
 
@@ -104,7 +105,8 @@ white-space: nowrap;
 
 
     font-size: 30px;
-    color: blue;
+    color: #D06ADB;
+    
     z-index: 1;
     opacity: 0;
     transition: 500ms;
@@ -118,7 +120,7 @@ section
 {
 display: flex;
 justify-content: space-around;
-background: lightgray;
+
 background: #f6f6f6;
 }
 
@@ -132,12 +134,12 @@ justify-content: space-between;
 border-radius: 10px 10px 10px 10px;
 overflow: hidden;
 background: white;
-box-shadow: 0 0 20px blue;
+box-shadow: 0 0 20px #c8c8c8;
   }  
 
   .coche
   {
-background: lightgray;
+background: #99E2D0;
     height: 80px;
     width: 70px;
     border-radius: 0 10px 10px 0;
@@ -173,6 +175,7 @@ background: lightgray;
     margin-right: 30px;
     margin-top: 47px;
     font-weight: bold;
+    color: #353535;
 }
 
 h3 
@@ -201,7 +204,7 @@ margin-right: -1px;
 i.fas.fa-check
 {     
      background: white;
-     
+    color: #99E2D0; 
     width: 30px;
     height: 30px;
     width: 25px;
@@ -239,6 +242,7 @@ background: #f6f6f6;
 font-family: roboto;
 padding-top: 6px;
 text-transform: uppercase;
+font-weight: 300;
 }
 
 .cards
@@ -278,14 +282,15 @@ background: #99E2D0;
 display: flex;
 justify-content: center;
 align-items: center;
-background: lightgray;
+background: #f6f6f6;
 padding: 2rem;
 }
 
 button
 {
 border: transparent ;
-background: #9356DC;
+background: #CE69DB;
+background: linear-gradient(0deg ,#CF69DA 10% ,#B260DB 100%);
 border-radius: 40px;
 /*margin-top: 50px;*/
 width: 280px;
@@ -293,7 +298,8 @@ height: 70px;
 transition: 500ms;
 cursor: pointer;
 font-size: 20px;
-color:white
+color:white;
+box-shadow:0 0 10px #9356DC;
 }
 
 
@@ -470,7 +476,7 @@ justify-content: flex-start;
 	display: flex;
     justify-content: center;
     align-items: center;
-    background: lightgray;
+    background: #f6f6f6;
     padding: 2rem;
     padding-bottom: 75px;
 }

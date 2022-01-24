@@ -188,7 +188,7 @@ border: transparent ;
 /* background: #9356DC; */
 /* background: #ff79da; */
 /* background: linear-gradient(170deg, #ff79da 10%, #9356dc 100%);  */
-background: #CE69DB;
+background: linear-gradient(0deg ,#CF69DA 10% ,#B260DB 100%);
 border-radius: 40px;
 margin-top: 50px;
 width: 280px;
@@ -230,6 +230,7 @@ color: white;
     font-size: 20px;
     background: #f6f6f6;
     margin-top: 20px;
+    box-shadow: 0 0 20px #c8c8c8;
 }
 
 .choice:hover
@@ -259,21 +260,12 @@ color: white;
 }
 
 
-.fas.fa-mobile-alt
+.fas.fa-mobile-alt , .fas.fa-store ,.fas.fa-list
 {
     margin-right: 15px;
-}
-.fas.fa-list
-{
-    margin-right: 15px;
+    color: #7E7E7E;
 }
 
-.fas.fa-store
-{
-
-  margin-right: 15px;  
-  
-}
 
 .number
 {
@@ -285,7 +277,7 @@ color: white;
     align-items: center;
     justify-content: center;
     color: white;
-    margin-left: -17px;
+    margin-left: -15px;
     background: #9356DC;
     margin-right: 15px;
     min-width: 30px;
@@ -364,13 +356,13 @@ object-fit: cover;
 
 .restau-card h3
 {
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .restau-card p
 {
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .card-part1 ,.card-part2
@@ -386,12 +378,14 @@ object-fit: cover;
     left: auto;
      top: 12px;
      right: 11px;
-     height: 19px;
-     width: 70px;
+     /* height: 19px; */
+     /* width: 70px; */
      background: #99E2D0;
      border-radius: 2px;
      color: #008766;
      text-align: center;
+     padding: 5px;
+     font-size: 13px;
   }  
   .far.fa-heart , .fas.fa-heart
   {
@@ -404,9 +398,10 @@ transition: 2s;
 .fas.fa-heart
 {
 color: #D06ADB;
+color: #AC5EDC;
 z-index: 1;
 opacity: 0;
-transition: 1s;
+transition:  500ms ease-in-out;
 transform-origin: left;
 }
 
@@ -554,9 +549,24 @@ flex-direction: column;
     border-radius: 20px;
     justify-content: flex-start;
     font-size: 15px;
+    /* font-size: 17px; */
     background: #f6f6f6;
     margin-top: 20px;
 }
+
+.number
+{
+margin-right: 18px;
+}
+
+.fas.fa-mobile-alt ,.fas.fa-list ,.fas.fa-store 
+{
+ font-size: 18px;
+    margin-right: 18px;
+}
+
+
+
 .total-card
 {
 
@@ -597,19 +607,7 @@ flex-direction: column;
     position: relative;
     background: white;
 }
-.new
-{
-    position: absolute;
-   left: auto;
-    top: 12px;
-    right: 11px;
-    height: 19px;
-    width: 70px;
-    background: #99E2D0;
-    border-radius: 2px;
-    color: #008766;
-    text-align: center;
-}
+
 
 
 .restau-card img
