@@ -231,6 +231,7 @@ color: white;
     background: #f6f6f6;
     margin-top: 20px;
     box-shadow: 0 0 20px #c8c8c8;
+    box-shadow: 0px 5px 20px #c2c2c2;
 }
 
 .choice:hover
@@ -317,12 +318,16 @@ margin-top: 20px;
 height: 260px;
 width: 300px;
 border-radius: 20px;
+
 /* border: 1px solid black; */
 background: white;
 box-shadow:0 0 20px  #ff79da;
+box-shadow: 0 15px 20px #c2c2c2;
 position:relative;
 cursor: pointer;
-transform:scale(1)
+transform:scale(1);
+overflow: hidden;
+
 
 }
 
@@ -354,15 +359,30 @@ border-radius:20px 20px 0 0;
 object-fit: cover;
 }
 
+.adress
+{
+
+    /* background: blue; */
+    /* overflow:hidden; */
+    /* overflow: auto; */
+    margin-right: 46px;
+}
+
 .restau-card h3
 {
     margin-top: 10px;
     margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .restau-card p
 {
     margin-top: 10px;
     margin-left: 10px;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
 }
 
 .card-part1 ,.card-part2
