@@ -419,7 +419,8 @@ transition: 2s;
 {
 color: #D06ADB;
 color: #AC5EDC;
-z-index: 1;
+/* z-index: 1; */
+z-index: 999;
 opacity: 0;
 transition:  500ms ease-in-out;
 transform-origin: left;
@@ -427,7 +428,8 @@ transform-origin: left;
 
 .far.fa-heart
 {
-    z-index:-1;
+    /* z-index:-1; */
+    z-index: 999; 
 }
 
 .fas.fa-heart:hover
@@ -645,6 +647,7 @@ justify-content: flex-start;
 {
   margin-left: 15px;  
 }
+
 
 
 }
