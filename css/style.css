@@ -14,7 +14,7 @@ font-family: Roboto,Shrikhand, sans-serif;
     justify-content: center;
     align-items: center;
 position: fixed;
-z-index: 200;
+z-index: 2001;
 background: #f5f5f5;
 top:0 ;
 left: 0;
@@ -331,10 +331,27 @@ overflow: hidden;
 
 }
 
-.restau-card:hover
+/* .restau-card:hover */
+/* { */
+/* transition: 300ms; */
+    /* transform: scale(1.02); */
+/* } */
+
+.bloc-icon
 {
-transition: 300ms;
+display: flex;
+flex-direction: row;
+width: 300px;
+/* background: blue; */
+position: relative;
+transform: scale(1);
+}
+
+.bloc-icon:hover
+{
+    transition: 300ms;
     transform: scale(1.02);
+
 }
 
 .card-part1 a
@@ -629,7 +646,11 @@ margin-right: 18px;
     position: relative;
     background: white;
 }
+.bloc-icon
+{
 
+    width: 100%;
+}
 
 
 .restau-card img
