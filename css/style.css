@@ -412,8 +412,7 @@ transition: 2s;
 
 .fas.fa-heart
 {
-color: #D06ADB;
-color: #AC5EDC;
+color:#6C64DB;
 z-index: 999;
 opacity: 0;
 transition:  500ms ease-in-out;
