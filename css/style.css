@@ -27,10 +27,10 @@ animation-fill-mode: forwards;
 
 @keyframes disappareance
 {
-from
-{
+/* from */
+/* { */
 
-}
+/* } */
 to
 {
    visibility: hidden;
@@ -63,7 +63,7 @@ align-items: center;
 border-radius: 50%;
 border: transparent;
 border-top: 10px solid #9356DC;
-animation: load 3s linear forwards ;
+animation: load 3s linear forwards infinite;
 }
 
 .spin3
