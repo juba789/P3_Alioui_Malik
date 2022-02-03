@@ -198,7 +198,6 @@ transition: 350ms;
 }
 
 .info:hover  .coche i.fas.fa-check
-
 {
 transform: rotate(360deg) ;
 }

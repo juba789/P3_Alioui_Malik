@@ -27,10 +27,6 @@ animation-fill-mode: forwards;
 
 @keyframes disappareance
 {
-/* from */
-/* { */
-
-/* } */
 to
 {
    visibility: hidden;
@@ -375,8 +371,6 @@ white-space: nowrap;
 {
     margin-top: 10px;
     margin-left: 10px;
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
     white-space: nowrap;
 }
 
@@ -390,7 +384,6 @@ width: 50%;
 .new
 {
 position: absolute;
-left: auto;
 top: 12px;
 right: 11px;
 background: #99E2D0;
@@ -407,7 +400,6 @@ position: absolute;
 top: 200px;
 right: 18px;
 font-size: 28px;
-transition: 2s;
 }
 
 .fas.fa-heart
